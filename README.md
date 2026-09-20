@@ -1,7 +1,7 @@
 # bots_across_project
 This is a placeholder project to apply across.to api.
 
-This doc is to apply across.to api, for an internal cross exchange abitrager project, which requires cross chain margin movement, usually arbitrum USDC <-> robinhood USDG.
+The api is for internal cross exchange arbitrager bot, using across.to to move funds, mainly on hyperliquid, ligher, and robinhood lighter instance.
 
-Low QPS, self use in production, so I can't use the endpoints without an integrator ID. 
+Because hyperliquid doesn't support withdraw USDG via robinhood chain, and robinhood lighter instance doesn't support withdraw USDC via arbitrum, I have to use across service to bridge the funds.
 
